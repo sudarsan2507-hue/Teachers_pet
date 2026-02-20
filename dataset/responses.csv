@@ -1,0 +1,9 @@
+response,label
+Recursion stops when base case is reached,engaged
+I do not understand this topic,disengaged
+It repeats something,partial
+Base case prevents infinite loop,engaged
+Not sure about this,disengaged
+Function calls itself until condition,engaged
+It keeps going,partial
+I don't know,disengaged
