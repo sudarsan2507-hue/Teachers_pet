@@ -7,3 +7,25 @@ Not sure about this,disengaged
 Function calls itself until condition,engaged
 It keeps going,partial
 I don't know,disengaged
+Recursion is when a function calls itself repeatedly until a stopping condition,engaged
+The base case is essential to stop infinite recursion,engaged
+I have no idea what recursion means,disengaged
+Something about loops I think,partial
+It calls itself again and again because of a base case,engaged
+Recursive functions need a termination condition,engaged
+I am confused about this,disengaged
+It repeats until done,partial
+A function that calls itself with a smaller problem each time,engaged
+I don't understand base cases,disengaged
+Repeating the function,partial
+The call stops when the base condition is met,engaged
+No clue,disengaged
+Recursion breaks the problem into smaller parts,engaged
+It goes until it stops,partial
+Functions calling themselves is recursion,engaged
+I am not sure how it works,disengaged
+It repeats in a loop-like way,partial
+Recursion uses a stack and terminates at the base case,engaged
+Not understanding,disengaged
+It loops back on itself,partial
+The function divides itself into smaller sub-problems,engaged
