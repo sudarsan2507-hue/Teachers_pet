@@ -9,6 +9,6 @@ if st.button("Evaluate"):
     if response.strip() == "":
         st.warning("Please enter a response.")
     else:
-        score, status = evaluate_response(response)
+        score, status, reasons, missing_keywords = evaluate_response(response)
         st.success(f"Cognitive Score: {score}")
         st.write(f"Engagement Status: {status}")

@@ -29,7 +29,7 @@ class AttendanceSession:
 
             response = responses_dict.get(name, "")
 
-            score, status, reasons = evaluate_response(response, threshold)
+            score, status, reasons, missing_keywords = evaluate_response(response, topic=self.topic, engagement_threshold=threshold)
 
             if status in ["Engaged", "Partially Engaged"]:
                 attendance = "Present"

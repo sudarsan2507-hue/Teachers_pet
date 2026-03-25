@@ -56,4 +56,12 @@ session.conduct_attendance(responses)
 # STEP 4: Display Full Report
 # ---------------------------------------------------------
 
-session.display_report()
+summary = session.generate_summary()
+print("\n--- Attendance Summary ---")
+for k, v in summary.items():
+    print(f"{k}: {v}")
+
+print("\n--- Student Records ---")
+for r in session.records:
+    print(f"{r['name']} ({r['roll_no']}): {r['attendance']} - Score: {r['score']:.2f} - {r['engagement_status']}")
+    print(f"  Reason: {r['explanation']}")
