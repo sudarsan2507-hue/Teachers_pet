@@ -21,7 +21,9 @@ The system employs a multi-stage evaluation pipeline:
 2.  **Stage 2: Fuzzy Mimicry Detection**: Locates word-for-word question copying.
 3.  **Stage 3: Groq LLM Verification**: Uses Llama 3.1 (8B) to authenticate conceptual depth, detect AI tonal signatures, and generate personalized feedback.
 
-## 🛠️ Installation & Setup
+## 🛠️ Easy Clone & Run Setup
+
+Everything you need to run the application (including the pre-trained ML models) is already included in the repository! Simply clone, provide your Groq API key, and you're good to go!
 
 1.  **Clone the Repository**:
     ```bash
@@ -30,11 +32,12 @@ The system employs a multi-stage evaluation pipeline:
     ```
 
 2.  **Install Dependencies**:
+    The `requirements.txt` file is pre-configured with all necessary packages, including `streamlit`, `groq`, `scikit-learn`, and `plotly`.
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Configure Environment Variables**:
+3.  **Configure Environment Variables (Crucial for AI Features)**:
     Create a `.env` file in the root directory:
     ```env
     GROQ_API_KEY=your_groq_api_key_here
